@@ -1,0 +1,23 @@
+{
+  "name": "ea-xspf",
+  "version": "1.0.0",
+  "description": "xspf",
+  "main": "templates/playlist.js",
+  "bin": {
+    "xspf": ".bin/xspf.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "playlist",
+    "vlc",
+    "xspf"
+  ],
+  "author": "hagb4rd@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "ea-lib": "^1.0.45",
+    "event-stream": "^4.0.1"
+  }
+}
